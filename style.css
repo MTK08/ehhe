@@ -1,0 +1,212 @@
+body {
+
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: Roboto, sans-serif;
+    max-width: 100%
+}
+.sexy img{
+    width: 300px;
+    height: 200px;
+}
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+}
+.header{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+    align-items: center;
+    color: #e5e7eb;
+   
+}
+.logo img{
+    display: flex;
+    width: 100px;
+    padding: 20px;
+    
+    
+}
+.container{
+    display: flex;
+    gap: 50px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+#secondry{
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+.part-1{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    
+}
+.ahha-1{
+display: flex;
+flex-direction: column;
+max-width: 800px;
+max-height: auto;
+padding-left: 20px;
+justify-content: center;
+}
+
+#important{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+
+}
+.button{
+    background-color: #3882f6;
+    width: 100px;
+    height: 30px;
+    color: #e5e7eb;
+    margin: 0px;
+    padding: 0px;
+}
+.ahha-2{
+    display: flex;
+    align-items: center;
+}
+.part-2{
+    display: flex;
+    flex-direction: column;
+ 
+}
+#title{
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 10px;
+
+}
+.perfumes{
+    display: flex;
+    justify-content: space-around;
+    
+  
+}
+.sexy{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 300px;
+    max-height: 300px;
+    gap: 20px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    font-weight: 500;
+  
+
+}
+.place-holder{
+    padding: 30px;
+    margin: 40px 0;
+}
+.part-3{
+max-width: 1200px;
+}
+.part-3 h1{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+.uncle{
+    background-color: #e5e7eb;
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+
+}
+.part-3 h6{
+    font-size: 20px;
+}
+.part-4{
+display: flex;
+color: #e5e7eb;
+
+
+justify-content: flex-start;
+padding-left: 20px;
+}
+.sign-up button{
+    width: 100px;
+    height: 50px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border: #e5e7eb solid;
+    
+}
+.sign-up{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    color: #e5e7eb;
+    
+    
+}
+.aunt{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 900px;
+   background-color: #3882f6;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+.boss{
+
+    display: flex;
+justify-content: center;
+    align-items: center;
+   
+
+}
+.footer{
+    margin-top: 11px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 35px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+.part-3 h1, .part-3 h6{
+    margin: 0px;
+}
+a{
+    color: #eee;
+    text-decoration: none;
+}
+/* Add/update these rules */
+body {
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.place-holder img{
+    width: 200px;       /* Match your design */
+    height: 200px;      /* Match your design */
+    object-fit: cover;  /* Prevents stretching (crops if needed) */
+    border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+
+
+
